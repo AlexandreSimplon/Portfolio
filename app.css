@@ -9,7 +9,7 @@ html, body {
 }
 
 a:link { 
-text-decoration:none; 
+text-decoration: none; 
 }
 
 a {
@@ -18,5 +18,22 @@ a {
 }
 
 #mySlides {
-    overflow: inherit;
+    display: block;
+    height: 25rem;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.w3-containerw3-centerw3-content {
+    text-align: center;
+}
+
+img {
+    display: block;
+    block-size: 100%;
 }
