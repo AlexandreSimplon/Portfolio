@@ -19,7 +19,7 @@ a {
 
 #mySlides {
     display: block;
-    height: 25rem;
+
     width: 100%;
 }
 
@@ -33,7 +33,12 @@ a {
     text-align: center;
 }
 
-img {
+#mySlides img {
     display: block;
     block-size: 100%;
+    overflow: hidden;
+}
+.images {
+    height: 550px;
+    overflow: hidden
 }
