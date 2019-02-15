@@ -12,7 +12,7 @@ html, body {
 
 .tete {
     background-color: rgb(0, 106, 155);
-    padding-top: 1.5%;
+    padding: 2%;
 }
 
 a:link { 
@@ -82,12 +82,19 @@ a {
     color: beige;
     text-align: end;
     align-self: flex-end;
-    font-size: 0.9em;
+    font-size: 0.8em;
     margin-right: 1%;
+    margin-top: 15px;
 }
 
 p {
     font-size: 1.3em;
     font-family: fantasy;
+}
+
+
+@media (min-width: 640px){
+        
+    
 }
 
