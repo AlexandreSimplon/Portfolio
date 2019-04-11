@@ -4,7 +4,7 @@
 <div class="presentatonalex">
     <div class="container orange-text text-darken-4">
         <div class="row">
-            <div class="col s6">
+            <div class="col xl4 l4 m6 s7">
                 <!-- <p>&lt;html&gt;ceci est une balise&lt;/html&gt;</p> -->
                 <p><<em>&excl;-- &lt;strong&gt;<strong>Message caché</strong>&lt;/strong&gt;</em></p>
                 <h6><em>&lt;h1>Salutation, noble surfer&lt;h1></em></h6>

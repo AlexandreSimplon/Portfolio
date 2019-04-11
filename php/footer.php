@@ -12,7 +12,7 @@ $reponse = $bdd->query('SELECT * FROM infos');
 // On affiche chaque entrée une à une
 while ($donnees = $reponse->fetch()){
 echo"
-                        <p class='soutitre grey-text'><img src='/img/icons8-home-page-15.png'>".$donnees['adresse']." ".$donnees['code_p']."<br>".$donnees['ville']."<br><img src='/img/icons8-nokia-3310-13.png'></i>".$donnees['telephone']."<br><img src='/img/icons8-email-13.png'> ".$donnees['mail']."</p>
+                        <p class='soutitre grey-text'><img src='/img/icons8-home-page-15.png'><a href='https://www.google.com/maps/place/1+Rue+de+Biat/@50.1609921,2.9606503,251m/data=!3m1!1e3!4m6!3m5!1s0x47c2b2b0d366b3e7:0xeef840264cdd4510!4b1!8m2!3d50.1609385!4d2.9614266' onclick='window.open(this.href); return false;'>".$donnees['adresse']." ".$donnees['code_p']."<br>".$donnees['ville']."</a><br><img src='/img/icons8-nokia-3310-13.png'></i><a href='tel:".$donnees['telephone']."'>".$donnees['telephone']."</a><br><img src='/img/icons8-email-13.png'><a href='mailto:".$donnees['mail']."'> ".$donnees['mail']."</a></p>
 ";}
 ?>
                     </div>
