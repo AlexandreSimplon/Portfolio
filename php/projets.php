@@ -1,4 +1,4 @@
-<div id="presentation" class="competences center blue darken-2">
+<div id="projets" class="competences center blue darken-2">
     <h3 class="black-text accent-4 competences1">Projets</h3>
 </div>
 
@@ -13,8 +13,6 @@ while ($donnees = $reponse->fetch())
 
 echo"
 
-
-
     <div class='card medium col s12 m6 l4 z-depth-4'>
         <div class='card-image'>
             <img class='imagesdelacarte' src='".$donnees['img']."'>
@@ -26,8 +24,6 @@ echo"
             <a href='#'>Lien ici</a>
         </div>
     </div>
-
-
 
     ";}
 

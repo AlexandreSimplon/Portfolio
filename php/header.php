@@ -22,7 +22,7 @@ catch(Exception $e)
 </head>
 <body>
 <header>
-    <div class="navbar-fixed">
+    <div id="alexandre" class="navbar-fixed">
         <nav>
             <div class="nav-wrapper blue darken-2">
                 <a href="index.php" class="brand-logo right grey-text text-darken-3">Alexandre</a>
@@ -30,9 +30,10 @@ catch(Exception $e)
                 <ul class="left hide-on-med-and-down">
                     <li><a href="#presentation">Présentation</a></li>
                     <!-- <li><a href="">À propos de moi</a></li> -->
-                    <li><a href="">Compétences</a></li>
                     <li><a href="#experiences">Expériences</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>

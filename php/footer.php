@@ -1,4 +1,4 @@
-<footer class="page-footer grey darken-3">
+<footer id="contact" class="page-footer grey darken-3">
                 <div class="row">
                     <div class="col offset-l1 l3 m3 s6">
                         <h5 class="yellow-text monnom">DOUCHET Alexandre</h5>
@@ -20,12 +20,12 @@ echo"
                     <div class="col offset-l1 l2 offset-m1 m3 s12">
                     <ul class="ulfooter">
                         <h6>Navigation</h6>
-                        <li><a class="grey-text text-lighten-2" href="#!">Accueil</a></li>
-                        <li><a class="grey-text text-lighten-2" href="#!">Présentation</a></li>
-                        <li><a class="grey-text text-lighten-2" href="#!">À propos de moi</a></li>
-                        <li><a class="grey-text text-lighten-2" href="#!">Compétences</a></li>
-                        <li><a class="grey-text text-lighten-2" href="#!">Expériences</a></li>
-                        <li><a class="grey-text text-lighten-2" href="#!">Contact</a></li>
+                        <li><a class="grey-text text-lighten-2" href="#alexandre">Accueil</a></li>
+                        <li><a class="grey-text text-lighten-2" href="#presentation">Présentation</a></li>
+                        <!-- <li><a class="grey-text text-lighten-2" href="#!">À propos de moi</a></li> -->
+                        <li><a class="grey-text text-lighten-2" href="#competences">Compétences</a></li>
+                        <li><a class="grey-text text-lighten-2" href="#experiences">Expériences</a></li>
+                        <li><a class="grey-text text-lighten-2" href="#contact">Contact</a></li>
                     </ul>
                     </div>
                 </div>
