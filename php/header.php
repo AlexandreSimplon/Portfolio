@@ -29,7 +29,7 @@ catch(Exception $e)
                 <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">fingerprint</i></a>
                 <ul class="left hide-on-med-and-down">
                     <li><a href="#presentation">Présentation</a></li>
-                    <li><a href="">À propos de moi</a></li>
+                    <!-- <li><a href="">À propos de moi</a></li> -->
                     <li><a href="">Compétences</a></li>
                     <li><a href="#experiences">Expériences</a></li>
                     <li><a href="">Contact</a></li>

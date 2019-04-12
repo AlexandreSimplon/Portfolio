@@ -15,16 +15,15 @@ echo"
 
 
 
-    <div class='card medium col s12 m6 l3 '>
+    <div class='card medium col s12 m6 l4 z-depth-4'>
         <div class='card-image'>
-            <img src='".$donnees['img']."'>
+            <img class='imagesdelacarte' src='".$donnees['img']."'>
         </div>
-        <div class='card-content'>
-            <span class='card-title'>".$donnees['titre']."</span>
-            <p>".$donnees['description']."</p>
+        <div class='card-content center centerletextdvi'>
+            <p><span class='card-title'>".$donnees['titre']."</span>".$donnees['description']."</p>
         </div>
-        <div class='card-action'>
-            <a href='#'>Link</a>
+        <div class='card-action center'>
+            <a href='#'>Lien ici</a>
         </div>
     </div>
 
