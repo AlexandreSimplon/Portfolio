@@ -39,12 +39,12 @@ catch(Exception $e)
         </nav>
 
         <ul class="sidenav" id="mobile-demo">
-            <li><a href="index.php">Accueil</a></li>
-            <li><a href="">Présentation</a></li>
-            <li><a href="">À propos de moi</a></li>
-            <li><a href="">Compétences</a></li>
-            <li><a href="">Expériences</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#alexandre">Accueil</a></li>
+            <li><a href="#presentation">Présentation</a></li>
+            <!-- <li><a href="">À propos de moi</a></li> -->
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#experiences">Expériences</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
 </header>
