@@ -1,0 +1,82 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+nav {
+    display: none;
+}
+ul, li, a {
+    text-decoration: none;
+    display: block;
+}
+a {
+    color: brown;
+}
+.ul {
+    background-color: black;
+
+}
+li {
+    padding: 3rem
+}
+
+.vrai{
+    display: block;
+}
+
+@media (min-width: 640px){
+        
+    nav, ul{
+        display: flex;
+        justify-content: center;
+    }
+    .btn {
+        display: none;
+    }
+    a {
+        color: black;
+    }
+    .ul{
+        background-color: brown;
+    }
+}
+
+#p {
+    position: absolute;
+    top: 1%;
+    text-align: end;
+    right: 4%;
+}
+
+/* .btn {
+    width: 90px;
+    height: 40px;
+    box-shadow: 4px 3px 3px rgba(230, 230, 230, 0.74);
+    background-color: #005e99d5;
+    color: #000000;
+}
+
+.btnonoff {
+    width: 90px;
+    height: 40px;
+    box-shadow: 4px 3px 3px rgba(0, 0, 0, 0.74);
+    background-color: #005e99d5;
+    color: #000000;
+} */
+
+.btnonoff, .btn {
+    width: 90px;
+    height: 40px;
+    box-shadow: 4px 3px 3px rgba(133, 133, 133, 0.74);
+    background-color: #005e99d5;
+    color: #000000;
+}
+
+select {
+    width: 125px;
+    height: 40px;
+    box-shadow: 4px 3px 3px rgba(133, 133, 133, 0.74);
+    background-color: #005e99d5;
+    color: #000000;
+}

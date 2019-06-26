@@ -3,7 +3,6 @@
 </div>
 
 <div class="row">
-    <!-- <div class='col s12 m6 l6'> -->
 
 <?php
 $reponse = $bdd->query('SELECT * FROM projets');
@@ -13,7 +12,7 @@ while ($donnees = $reponse->fetch())
 
 echo"
 
-    <div class='card medium col s12 m6 l4 z-depth-4'>
+    <div class='card medium col s12 m6 l4 z-depth-4 carteImages'>
     
         <div class='card-image'>
             <img class='imagesdelacarte' src='".$donnees['img']."'>
@@ -32,5 +31,4 @@ echo"
 $reponse->closeCursor();
 ?>
         
-    <!-- </div> -->
 </div>
