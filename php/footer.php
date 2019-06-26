@@ -19,7 +19,7 @@ echo"
                     
                     <div class="col offset-l1 l2 offset-m1 m3 s12">
                     <ul class="ulfooter">
-                        <h6>Navigation</h6>
+                        <h6 class="Navigationh6">Navigation</h6>
                         <li><a class="grey-text text-lighten-2" href="#alexandre">Accueil</a></li>
                         <li><a class="grey-text text-lighten-2" href="#presentation">Présentation</a></li>
                         <!-- <li><a class="grey-text text-lighten-2" href="#!">À propos de moi</a></li> -->

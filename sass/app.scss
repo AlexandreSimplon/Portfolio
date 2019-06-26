@@ -4,6 +4,7 @@
 @import 'competences';
 @import 'experiences';
 @import 'projets';
+@import 'pages404error';
 
 #home {
     background-image: url(/img/Motherboard-Blue-Circuits-Circuit-Board-computer-wallpaper-background.jpg);
@@ -14,4 +15,7 @@
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-position: center;
+}
+.parag404{
+    font-family: 4rem fantasy;
 }

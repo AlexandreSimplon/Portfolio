@@ -28,7 +28,7 @@ catch(Exception $e)
                 <a href="index.php" class="brand-logo right grey-text text-darken-3">Alexandre</a>
                 <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">fingerprint</i></a>
                 <ul class="left hide-on-med-and-down">
-                    <li><a href="#presentation">Présentation</a></li>
+                    <li class="active"><a href="#presentation" active>Présentation</a></li>
                     <!-- <li><a href="">À propos de moi</a></li> -->
                     <li><a href="#experiences">Expériences</a></li>
                     <li><a href="#competences">Compétences</a></li>

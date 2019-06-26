@@ -14,6 +14,7 @@ while ($donnees = $reponse->fetch())
 echo"
 
     <div class='card medium col s12 m6 l4 z-depth-4'>
+    
         <div class='card-image'>
             <img class='imagesdelacarte' src='".$donnees['img']."'>
         </div>
@@ -21,9 +22,10 @@ echo"
             <p><span class='card-title'>".$donnees['titre']."</span>".$donnees['description']."</p>
         </div>
         <div class='card-action center'>
-            <a href='#'>Lien ici</a>
+            <a href='".$donnees['link_projet']."' target='_blank' >Lien ici</a>
         </div>
     </div>
+
 
     ";}
 
