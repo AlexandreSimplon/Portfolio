@@ -16,6 +16,15 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-.parag404{
-    font-family: 4rem fantasy;
+
+::-webkit-scrollbar{
+    width:15px;
+}
+::-webkit-scrollbar-track{
+    background:#3370eb;
+    border-radius:0px;
+}
+::-webkit-scrollbar-thumb{
+    background:#961919;
+    border-radius:20px;
 }

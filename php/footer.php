@@ -40,7 +40,6 @@ echo"
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 <script type="text/javascript" src="/js/modifier/app.js"></script>
 <link rel="stylesheet" href="css/app.min.css">
-<style>::-webkit-scrollbar{width:15px}::-webkit-scrollbar-track{background:#7096e4;border-radius:0px}::-webkit-scrollbar-thumb{background:#961919;border-radius:20px}</style>
 
 </body>
 </html>
